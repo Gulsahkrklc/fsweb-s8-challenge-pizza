@@ -4,6 +4,7 @@ import Home from "./components/Home"
 import Navbar from "./components/Navbar"
 import PizzaOrderForm from "./components/OrderPage"
 import "./App.css"
+import Finish from "./components/Finish";
 
 
 
@@ -18,6 +19,7 @@ function App() {
       <Home />
       <Navbar />
       <PizzaOrderForm />
+      <Finish/>
         
       
     </div>
