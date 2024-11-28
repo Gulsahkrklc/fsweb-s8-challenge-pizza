@@ -1,0 +1,133 @@
+.back-wrapper {
+    background-color: #FAF7F2; /* Arka plan rengini buraya ver */
+    display: flex;
+    flex-direction: column;
+     
+}
+
+.siparis-form{
+ font-family: Barlow;
+display: flex;
+flex-direction: column;
+ margin: 20px 400px ;    
+ background-color: white;
+}
+
+.siparis-alt{
+display: flex;
+flex-direction: column;
+gap: 50px;
+margin: 20px 400px ;  
+background-color: #FAF7F2;
+padding-bottom: 10px;
+}
+
+.siparis-alt img{
+margin:-20px;
+padding: 0;
+padding: 0;
+max-width: 100%; /* Görselin genişliği tam olacak */
+}
+.main-p{
+  color:   #5F5F5F;
+}
+
+.pizza-info{
+    display: flex;
+    justify-content: space-between;
+}
+.pizza-info p{
+ color:   #5F5F5F;
+
+}
+.nav-links a{
+text-decoration:none;
+color:#5F5F5F;
+
+
+}
+.nav-links a.active {
+    color: #CE2829;
+    }
+.second-secim{
+display: flex;
+align-content: center;
+align-items: center;
+justify-content: center;
+
+}
+.first-secim{
+    display: flex;
+    justify-content: space-between;
+
+}
+.malzemos{
+ margin: 20px 0 20px 0;
+ display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 sütun oluştur */
+  gap: 10px;  
+}
+
+.malzemos input{
+   margin-right: 8px;
+}
+
+
+.kalınlık-secim{
+    width: 200px
+}
+
+.siparis-info {
+width: 600px;
+height: 50px;
+border-radius: 20px;
+padding: 20px; 
+gap: 100px;
+display: flex;
+}
+.siparis-ver{
+    background-color: #FDC913;
+}
+.artıButon{
+width: 10px;
+height: 30px;
+background-color: #FDC913;
+text-align: center;
+border: none;
+border-radius: 4px;
+
+}
+
+.eksiButon{
+    width: 10px;
+    height: 30px;
+   background-color: #FDC913;
+   border: none;
+   border-radius: 4px;
+  
+}
+.toplam-tutar{
+    color: #CE2829;
+    
+}
+.total{
+    margin-left: 100px;
+    margin-top: -50px;
+    border-radius: 20px; 
+    border: solid;
+    border-color: white;
+    transition: all;
+}
+.total button{
+    width: 50%;
+    color: black
+}
+.boy {
+ display: flex;
+ flex-direction: column;
+ gap: 4px;
+
+}
+.error-message{
+    color: #CE2829;
+}
